@@ -4,9 +4,9 @@ main()
 	int i,m,k,x,j,A[1000],l,q,s;
 	double m_o,sum;
 
-	printf("dwse to m\n");
+	printf("give m\n");
 	scanf("%d",&m);
-	printf("dwse to k\n");
+	printf("give k\n");
 	scanf("%d",&k);
 
 	s=k+1;
@@ -44,8 +44,8 @@ main()
 	}
 	sum = sum + A[k-m];
 	m_o=sum/(k-m+1);
-	printf("\napotelesmata:\n");
-	printf("To megisto mikos kuklou einai: M(%d)=%d\n",q,l);
-	printf("To meso mikos kuklou einai: %lf",m_o);
-	scanf("%d",&i);
+	printf("\nResults:\n");
+	printf("Max cycle length: M(%d)=%d\n",q,l);
+	printf("average cycle length: %lf",m_o);
+
 }
