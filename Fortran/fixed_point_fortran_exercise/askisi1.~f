@@ -15,8 +15,7 @@
       x1=ffun(x0)
       i=1
    10 if(i .le. nmax) then
-      write(*,*)'n=',i,'  y',i,'=',x0,'    ­(y',i,')=',ffun(x0),
-     u'   |y',i,'-y',i-1,'|=',abs(x1-x0)
+      write(*,*) 'n =', i, '   y(', i, ') =', x0, '   f(y) =', ffun(x0), '   |y(', i, ') - y(', i-1, ')| =', abs(x1 - x0)
       if( abs(x1-x0) .le. tol) then
       write(*,*)'Stable point is: ',x1
       i=nmax
