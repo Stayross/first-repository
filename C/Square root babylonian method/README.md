@@ -1,4 +1,4 @@
-Find square root of a number using Babylonian method
+Find square root of a number>0 using Babylonian method
 
 *Babylonian method:
 Make an initial guess. Guess any positive number x0.
