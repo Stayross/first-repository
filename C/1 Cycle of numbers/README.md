@@ -10,9 +10,11 @@ For a given input n, the cycle length of n is defined as the number of terms gen
 up to and including the terminating 1. 
 In the example above, the cycle length of 22 is 16. 
 We denote the cycle length of n as C(n), so C(22)=16.
+
 Program Requirements:
 The program should take two integers 
 m and k as input from the user and compute:
+
 1. The maximum cycle length for all numbers between m and k (inclusive).
 2. The average cycle length for the same range.
 3. The number that achieves the maximum cycle length.
